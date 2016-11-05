@@ -2,12 +2,13 @@ package models;
 
 import java.util.*;
 import java.io.File;
+import java.io.File;
 import javax.persistence.*;
 
 import play.db.ebean.*;
 import play.data.format.*;
 import play.data.validation.*;
-
+import play.data.*;
 import com.avaje.ebean.*;
 
 @Entity
@@ -40,4 +41,10 @@ public class Producto extends Model{
 
     public static Finder<Long, Producto> find = new Finder<Long,Producto>(Producto.class);
 
+    public Form<Producto> getForm(){
+    	Producto p = Producto.find.byId(this.id);
+    	Form<Producto> returning=Form.form(Producto.class).fill(p);
+    	return returning;
+
+	}//Fin getForm
 }

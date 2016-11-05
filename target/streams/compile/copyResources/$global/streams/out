@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/sarahi/crm-igf/conf/logback.xml,/home/sarahi/crm-igf/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/sarahi/crm-igf/conf/evolutions,/home/sarahi/crm-igf/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/home/sarahi/crm-igf/conf/routes,/home/sarahi/crm-igf/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/sarahi/crm-igf/conf/application.conf,/home/sarahi/crm-igf/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/sarahi/crm-igf/conf/evolutions/default,/home/sarahi/crm-igf/target/scala-2.11/classes/evolutions/default)[0m
+[0m[[0mdebug[0m] [0m	(/home/sarahi/crm-igf/conf/evolutions/default/1.sql,/home/sarahi/crm-igf/target/scala-2.11/classes/evolutions/default/1.sql)[0m
